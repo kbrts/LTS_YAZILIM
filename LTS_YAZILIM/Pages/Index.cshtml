@@ -1,0 +1,78 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    <style>
+        .btn-group .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            float: right;
+            cursor: pointer;
+        }
+    </style>
+    <div class="btn-group">
+        <button class="button">YENİ</button>
+        <button class="button">DÜZENLE</button>
+        <button class="button">SİL</button>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="width:400px" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <nav>
+            <ul style="list-style-type: disc">
+                <li>
+                    <b>Tanımlar </b>
+                    <ul>
+                        <li>
+                            <a href="#" class="w3-bar-item w3-button">
+                                <select name="hesap-kart" id="hesap-kart">
+                                    <option value="">Hesap Kart Tanımları</option>
+                                    <option value="Hesap Kart Liste">Hesap Kart Liste</option>
+                                    <option value="Hesap Kart Girişi">Hesap Kart Girişi</option>
+                                    <option value="Hesap Kart Tip Tanımı">Hesap Kart Tip Tanımı</option>
+                                    <option value="Hesap Kart Tür Tanımları">Hesap Kart Tür Tanımları</option>
+                                    <option value="Hesap Kart Grup Tanımları">Hesap Kart Grup Tanımları</option>
+                                    <option value="Hesap Kart Alt Grup Tanımları">Hesap Kart Alt Grup Tanımları</option>
+                                </select>
+                            </a>
+                        </li>
+                        <li><a href="#" class="w3-bar-item w3-button">Kullanıcı Tanımları</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+    <!-- Page Content -->
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+        <div class="w3-container">
+            <h1 style="text-align:center;">LTS Software</h1>
+        </div>
+        <div class="w3-container">
+        </div>
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+    </div>
+
+</body>

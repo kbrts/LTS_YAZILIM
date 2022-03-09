@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTS_YAZILIM", "LTS_YAZILIM\LTS_YAZILIM.csproj", "{54A3485B-4AF1-4213-9450-8E6425923305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A3485B-4AF1-4213-9450-8E6425923305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A3485B-4AF1-4213-9450-8E6425923305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A3485B-4AF1-4213-9450-8E6425923305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A3485B-4AF1-4213-9450-8E6425923305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD041166-2538-4D84-9853-4EC54636399C}
+	EndGlobalSection
+EndGlobal
