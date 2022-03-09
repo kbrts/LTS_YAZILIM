@@ -1,0 +1,12 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [KartID]
+      ,[Unvan]
+      ,[VergiDairesi]
+      ,[VergiNo]
+      ,[TCNo]
+      ,[Adres]
+      ,[TipID]
+      ,[TurID]
+      ,[GrupID]
+      ,[AltGrupID]
+  FROM [LTS].[dbo].[HesapKart]
